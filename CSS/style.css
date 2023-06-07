@@ -39,6 +39,7 @@ nav ul {
 
 nav ul li {
   margin-right: 20px;
+  font-size: 18px;
 }
 
 nav ul li a {
@@ -69,7 +70,7 @@ header {
 .individual-items {
   display: inline-block;
   padding: 30px 20px;
-  font-size: 20px;
+
   text-align: center;
   cursor: pointer;
 }
@@ -499,4 +500,26 @@ h2 {
 
 .card:hover {
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 1024px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    flex-basis: 50%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    flex-basis: auto;
+    text-align: left;
+    font-size: 18px;
+  }
 }
