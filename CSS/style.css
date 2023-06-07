@@ -334,6 +334,10 @@ footer p {
   font-size: 14px;
 }
 /*Work experience*/
+.work-experience {
+  font-size: 18px;
+  font-weight: bold;
+}
 .work-background {
   position: absolute;
   top: 0;
@@ -422,6 +426,10 @@ h2 {
 }
 
 /* Float three columns side by side */
+.heading-project {
+  font-size: 22px;
+  font-weight: bold;
+}
 .column {
   float: center;
   width: 33.3%;

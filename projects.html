@@ -2,39 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gauri Kasar</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <title>Projects page</title>
 
-    <link rel="stylesheet" href="../CSS/style.css" />
-    <script src="../Javascript/project.js"></script>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="Javascript/project.js"></script>
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="../index.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-        </ul>
+        <div class="top-bar">
+          <ul class="items">
+            <li class="individual-items">
+              <a class="link-items" href="index.html">About</a>
+            </li>
+
+            <li class="individual-items">
+              <a class="link-items" href="work.html">Work</a>
+            </li>
+            <li class="individual-items">
+              <a class="link-items" href="projects.html">Projects</a>
+            </li>
+            <li class="individual-items">
+              <a class="link-items" href="index.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <section id="hero">
       <div class="project-background"></div>
-      <div class="hero-content"></div>
+      <div class="hero-content">
+        <div class="box2">
+          <h1>Projects</h1>
+        </div>
+      </div>
     </section>
 
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="../image/diary.png" style="width: 50%" />
-          <h4>Dialy Diary Project</h4>
+          <img src="image/diary.png" alt="diary" style="width: 50%" />
+          <div class="heading-project">Daily Diary Project</div>
+
           <div class="project-description">
             <p>
               This is a web application that helps in tracking the daily
@@ -45,8 +56,11 @@
               month.
             </p>
             <p>
-              <a href="https://github.com/gaurikasar/Daily-Diary">Click here</a>
-              Click on this for more Details!
+              <a
+                href="https://github.com/gaurikasar/Daily-Diary"
+                alt="daily diary"
+                >View on Github</a
+              >
             </p>
           </div>
           <button
@@ -60,8 +74,8 @@
 
       <div class="column">
         <div class="card">
-          <img src="../image/exercise.png" style="width: 50%" />
-          <h4>Human Activity Recognition</h4>
+          <img src="image/exercise.png" alt="exercise" style="width: 50%" />
+          <div class="heading-project">Human Activity Recognition</div>
           <div class="project-description">
             <p>
               <a
@@ -77,9 +91,8 @@
             <p>
               <a
                 href="https://github.com/gaurikasar/Human-Activity-Detection-Using-Smartphone"
-                >Click here</a
+                >View on Github</a
               >
-              Click on this for more Details!
             </p>
           </div>
           <button
@@ -91,11 +104,10 @@
         </div>
       </div>
 
-      <a href="#" target="_blank"></a>
       <div class="column">
         <div class="card">
-          <img src="../image/Chat.png" style="width: 50%" />
-          <h4>Internet Relay Chat</h4>
+          <img src="image/Chat.png" alt="chat" style="width: 50%" />
+          <div class="heading-project">Internet Relay Chat</div>
           <div class="project-description">
             <p>
               This application is a basic command line app for chatting. It is
@@ -105,12 +117,12 @@
               , unicast message. It is written in Java language.
             </p>
             <p>
-              <a href="https://github.com/gaurikasar/IRC">Click here</a>
-              Click on this for more Details!
+              <a href="https://github.com/gaurikasar/IRC">View on Github</a>
             </p>
           </div>
           <button
             class="button"
+            alt="click button"
             onclick="toggleDescription(this.parentElement)"
           >
             <span>Show/Hide Description</span>
@@ -118,11 +130,5 @@
         </div>
       </div>
     </div>
-
-    <footer>
-      <div class="footer-project">
-        <p>&copy; 2023 Gauri Kasar. All rights reserved.</p>
-      </div>
-    </footer>
   </body>
 </html>
