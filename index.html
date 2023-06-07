@@ -9,6 +9,7 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="CSS/style.css" />
+    <script src="Javascript/form.js"></script>
   </head>
   <body>
     <header>
@@ -44,11 +45,9 @@
           <div class="contact-info-container">
             <div class="profile-description">
               <h1>Hi, I am Gauri Kasar</h1>
-              <a href="#about">
-                <button class="button">
-                  <span>Know more about me </span>
-                </button>
-              </a>
+              <button class="button" onclick="location.href='#about'">
+                <span>Know more about me</span>
+              </button>
             </div>
             <div class="contact-info">
               <div class="contact-item">
@@ -220,7 +219,7 @@
         <h2>Contact Me</h2>
         <div class="row">
           <div class="col-md-6 offset-md-3">
-            <form>
+            <form class="form">
               <div class="form-group">
                 <label for="name">Name</label>
                 <input
@@ -257,8 +256,11 @@
                   placeholder="Enter your contact number"
                 />
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary" value="Submit">
+                Submit
+              </button>
             </form>
+            <p id="error-message" class="error-message"></p>
           </div>
         </div>
         <div class="reach-out">
