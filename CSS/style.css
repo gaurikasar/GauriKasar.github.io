@@ -50,38 +50,6 @@ header {
   top: 0;
   z-index: 999;
 }
-.top-bar {
-  background-color: var(--white);
-  color: var(--white);
-}
-.items {
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  list-style: none;
-  text-align: right;
-}
-
-.individual-items {
-  display: inline-block;
-  padding: 30px 20px;
-
-  text-align: center;
-  cursor: pointer;
-}
-
-.link-items {
-  color: var(--black);
-  text-decoration: none;
-}
-.link-items:hover {
-  color: var(--white);
-  text-decoration: none;
-}
-
-.items :hover {
-  background-color: var(--violetred);
-}
 
 #hero {
   position: relative;
@@ -511,6 +479,7 @@ h2 {
   .box2 {
     flex-direction: column;
     align-items: center;
+    width: 80%;
   }
 
   .profile-photo {
@@ -538,6 +507,7 @@ h2 {
     flex-basis: auto;
     text-align: left;
     font-size: 18px;
+    padding: 10px;
   }
   .contact-info-container {
     border-left: none;
