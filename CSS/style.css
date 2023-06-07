@@ -446,7 +446,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
   .column {
     width: 100%;
     display: block;
@@ -463,7 +463,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
   nav ul li {
     margin-right: 0;
     margin-bottom: 10px;
@@ -497,7 +497,7 @@ h2 {
     max-width: 75%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 601px) {
   .hero-background {
     left: 50%;
     transform: translateX(-50%);
@@ -531,7 +531,7 @@ h2 {
 }
 
 /*iphone*/
-@media only screen and (min-width: 393px) and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   nav ul li {
     margin-right: 0;
     margin-bottom: 10px;
