@@ -522,4 +522,8 @@ h2 {
     text-align: left;
     font-size: 18px;
   }
+  .contact-info-container {
+    border-left: none;
+    padding-left: 10px;
+  }
 }
