@@ -33,7 +33,7 @@ body {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: flex-end; /* Align items to the right */
+  justify-content: flex-end;
   padding: 20px;
 }
 
@@ -217,8 +217,12 @@ section {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+  text-align: center;
 }
-
+.reach-out {
+  text-align: center;
+  margin: 20px;
+}
 section h2 {
   font-size: 36px;
   margin-bottom: 40px;
@@ -501,23 +505,19 @@ h2 {
 .card:hover {
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.4);
 }
-@media screen and (max-width: 1100px) {
-  .items {
-    margin-left: auto; /* Align items to the right */
-    text-align: right;
-    margin-right: auto;
-  }
-
+@media screen and (max-width: 1024px) {
   nav ul li {
-    flex-basis: 40%; /* Adjust the value as needed */
-    text-align: right;
-    font-size: 16px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    flex-basis: 50%;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 600px) {
   nav ul li {
     margin-right: 0;
+    margin-bottom: 10px;
     flex-basis: auto;
     text-align: left;
     font-size: 18px;
@@ -526,4 +526,35 @@ h2 {
     border-left: none;
     padding-left: 10px;
   }
+  .skill h3 {
+    font-size: 20px;
+  }
+}
+
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.education-table th {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 10px;
+}
+
+.education-table td,
+.education-table th {
+  border: 1px solid var(--gray);
+  padding: 10px;
+  text-align: center;
+}
+
+.education-table tr:nth-child(even) {
+  background-color: var(--gray);
+}
+
+.education-table tr:nth-child(odd) {
+  background-color: var(--teal);
 }
