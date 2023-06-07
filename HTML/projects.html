@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gauri Kasar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script src="../Javascript/project.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <div class="project-background"></div>
+      <div class="hero-content"></div>
+    </section>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="../image/diary.png" style="width: 50%" />
+          <h4>Dialy Diary Project</h4>
+          <div class="project-description">
+            <p>
+              This is a web application that helps in tracking the daily
+              activities for a user. It has all features like we have in our
+              manual diary of adding, deleting, updating tasks. It also has
+              additional tracking features like water tracking, desk exercise
+              reminders and also weather update and nearby events in coming
+              month.
+            </p>
+            <p>
+              <a href="https://github.com/gaurikasar/Daily-Diary">Click here</a>
+              Click on this for more Details!
+            </p>
+          </div>
+          <button
+            class="button"
+            onclick="toggleDescription(this.parentElement)"
+          >
+            <span>Show/Hide Description</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="../image/exercise.png" style="width: 50%" />
+          <h4>Human Activity Recognition</h4>
+          <div class="project-description">
+            <p>
+              <a
+                href="https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones#"
+                >Dataset Link</a
+              >
+              By using this above dataset that has data of 30 particapants who
+              wore smartphone on their arm and did activities like Walking,
+              Running, Sleeping, Walking Upstairs, Walking Downstairs, Sitting.
+              On this dataset different models were applied and they gained
+              accuracry of more than 90%
+            </p>
+            <p>
+              <a
+                href="https://github.com/gaurikasar/Human-Activity-Detection-Using-Smartphone"
+                >Click here</a
+              >
+              Click on this for more Details!
+            </p>
+          </div>
+          <button
+            class="button"
+            onclick="toggleDescription(this.parentElement)"
+          >
+            <span>Show/Hide Description</span>
+          </button>
+        </div>
+      </div>
+
+      <a href="#" target="_blank"></a>
+      <div class="column">
+        <div class="card">
+          <img src="../image/Chat.png" style="width: 50%" />
+          <h4>Internet Relay Chat</h4>
+          <div class="project-description">
+            <p>
+              This application is a basic command line app for chatting. It is
+              based on Client server architecture. It supports various features
+              like group chatting, file sharing, private chatting, sending
+              encytped messages, leaving and joining multiple groups, broadcast
+              , unicast message. It is written in Java language.
+            </p>
+            <p>
+              <a href="https://github.com/gaurikasar/IRC">Click here</a>
+              Click on this for more Details!
+            </p>
+          </div>
+          <button
+            class="button"
+            onclick="toggleDescription(this.parentElement)"
+          >
+            <span>Show/Hide Description</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-project">
+        <p>&copy; 2023 Gauri Kasar. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
