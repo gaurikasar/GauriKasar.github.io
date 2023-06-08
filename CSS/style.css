@@ -499,7 +499,6 @@ h2 {
   }
 }
 
-/*iphone*/
 @media only screen and (max-width: 768px) {
   nav ul li {
     margin-right: 0;
