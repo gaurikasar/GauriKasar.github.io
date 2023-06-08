@@ -420,6 +420,10 @@ h2 {
     display: block;
     margin-bottom: 20px;
   }
+  .education-table {
+    width: 100%;
+    margin-left: 25px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
